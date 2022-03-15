@@ -1,0 +1,38 @@
+site_name: Learning Linux
+nav:
+- 'Overview':
+    - 'About': 'index.md'
+    - 'Spinning up Mkdocs': 'CONTRIBUTE.md'
+
+- 'Essentials of Linux System Administration (LFS201)':
+    - 'Essential Commands.md'
+    - 'Operation of Running Systems.md'
+    - 'User and Group Management.md'
+    - 'Networking.md'
+    - 'Service Configuration.md'
+    - 'Storage Management.md'
+- 'Linux Networking and Administration (LFS211)':
+    - 'Sub Section':
+        - '.md'
+- 'DevOps and SRE Fundamentals (LFS261)':
+    - 'Sub Section':
+        - '.md'
+- 'Containers Fundamentals (LFS253)':
+    - 'Sub Section':
+        - '.md'
+- 'Kubernetes Fundamentals (LFS258)':
+    - 'Sub Section':
+        - '.md'
+- 'FAQ':
+    - 'Placeholder': 'placeholder.md'
+
+theme:
+  name: 'material'
+  favicon: 'img/favicon.ico'
+markdown_extension:
+    - codehilite
+    - toc:
+        permalink: True
+
+
+

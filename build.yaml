@@ -1,0 +1,12 @@
+install:
+  - pip3 install mkdocs
+  - pip3 install mkdocs-material
+
+script:
+  - mkdocs build
+
+before_deploy:
+  - sudo chmod +x ./deploy.sh
+
+deploy:
+  - ./deploy.sh
